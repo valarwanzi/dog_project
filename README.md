@@ -132,5 +132,16 @@ s = socket.socket()
 ### 6 web端显示相关数据
 ![http://server.blackant.org:8000/](/README_img/web.png)
 
+## 注意事项
+镜像内系统预存了无线路由：
+'''
+ssid="HUAWEI_5F42"
+psk="34127615"
+'''
+当然您可以通过命令进行查看和修改
+...
+sudo vi /etc/wpa_supplicant/wpa_supplicant.conf
+```
+
 ## 开发计划
 目前第一代警犬项目基本已经完工了，第二代正在建设中，详见<dogs_server_blackant_second_version.py>，如有建议，欢迎来反馈.
